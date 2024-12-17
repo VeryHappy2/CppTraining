@@ -7,6 +7,13 @@
 *.o
 *.obj
 
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
 # Precompiled Headers
 *.gch
 *.pch
