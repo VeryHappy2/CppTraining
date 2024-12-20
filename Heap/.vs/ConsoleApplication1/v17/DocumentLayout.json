@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CppTraining\\ConsoleApplication1\\",
+  "WorkspaceRootPath": "D:\\CppTraining\\Heap\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{233A20EF-8357-4193-AD71-9BC073B3F55C}|ConsoleApplication1.vcxproj|D:\\CppTraining\\ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{233A20EF-8357-4193-AD71-9BC073B3F55C}|ConsoleApplication1.vcxproj|D:\\CppTraining\\Heap\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{233A20EF-8357-4193-AD71-9BC073B3F55C}|ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ConsoleApplication1.cpp",
-              "DocumentMoniker": "D:\\CppTraining\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "DocumentMoniker": "D:\\CppTraining\\Heap\\ConsoleApplication1.cpp",
               "RelativeDocumentMoniker": "ConsoleApplication1.cpp",
-              "ToolTip": "D:\\CppTraining\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "ToolTip": "D:\\CppTraining\\Heap\\ConsoleApplication1.cpp",
               "RelativeToolTip": "ConsoleApplication1.cpp",
-              "ViewState": "AQIAACIAAAAAAAAAAAAiwDMAAAANAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwDMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-15T23:25:27.456Z",
               "EditorCaption": ""

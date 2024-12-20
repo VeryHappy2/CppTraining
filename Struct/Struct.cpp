@@ -9,9 +9,71 @@ struct Point
     double y;
 };
 
+struct Profile 
+{
+    char a;
+    int w;
+    double d;
+};
+
+struct Array 
+{
+    int* arr = nullptr;
+    int size = 0;
+};
+
+Array CopyArray(const Array& arr);
+
 int main()
 {
-    std::cout << sizeof(Point);
+    std::cout << sizeof(Point) << std::endl;
+    std::cout << sizeof(Profile) << std::endl;
+
+    Array arr;
+    std::cout << "Enter a size of the array" << std::endl;
+    std::cin >> arr.size;
+
+    arr.arr = new int[arr.size];
+
+    for (size_t i = 0; i < arr.size; i++)
+    {
+        arr.arr[i] = i + 1;
+        std::cout << arr.arr[i] << std::endl;
+    }
+    
+    Array arr2 = CopyArray(arr);
+    delete[] arr.arr;
+
+    for (size_t i = 0; i < arr2.size; i++)
+    {
+        arr2.arr[i] = i + 1;
+        std::cout << arr2.arr[i] << std::endl;
+    }
+
+    Array* ptr = &arr2;
+    std::cout << (*ptr).size << std::endl;
+    //or
+    std::cout << ptr->size << std::endl;
+
+    Array& ref = arr2;
+    std::cout << ref.size << std::endl;
+
+    return 0;
+}
+
+Array CopyArray(const Array& arr)
+{
+    Array arr2;
+    if (arr.arr != nullptr) {
+        arr2.size = arr.size;
+        arr2.arr = new int[arr2.size];
+        for (size_t i = 0; i < arr.size; i++)
+        {
+            arr2.arr[i] = arr.arr[i];
+        }
+    }
+
+    return arr2;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
