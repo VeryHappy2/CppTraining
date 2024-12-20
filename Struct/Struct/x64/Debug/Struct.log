@@ -1,4 +1,0 @@
-﻿  Struct.cpp
-D:\CppTraining\Struct\Struct.cpp(42,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-D:\CppTraining\Struct\Struct.cpp(51,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  Struct.vcxproj -> D:\CppTraining\Struct\x64\Debug\Struct.exe
