@@ -1,30 +1,15 @@
-// Union.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Headers.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-
-// union has only one value but struct contains infinity
-
-union MyUnion
-{
-    char a;
-    int b;
-};
+#include "SimpleMath.h"
 
 int main()
 {
-    std::cout << sizeof(MyUnion) << std::endl;
-
-    MyUnion myUnion;
-    myUnion.a = 'A';
-    std::cout << "a = " << myUnion.a << std::endl; // A
-
-    myUnion.b = 54;
-
-    std::cout << "a = " << myUnion.a << std::endl; // we can see that we got 6 BUT NOT AN ERROR because we have some bits and this read like '6'
-    std::cout << "b = " << myUnion.b << std::endl; // 54
-
-    return 0;
+    std::cout << divide(10, 2) << std::endl;
+    std::cout << multiply(10, 2) << std::endl;
+    std::cout << add(10, 2) << std::endl;
+    std::cout << subtract(10, 2) << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
