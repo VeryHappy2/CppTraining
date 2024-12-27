@@ -1,2 +1,2 @@
 # CppTraining
-This my training with c++
+This is my training with c++
